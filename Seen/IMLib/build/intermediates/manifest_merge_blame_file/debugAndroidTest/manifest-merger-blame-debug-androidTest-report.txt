@@ -1,0 +1,183 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.rong.imlib.test" >
+4
+5    <uses-sdk
+5-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:5:5-74
+6        android:minSdkVersion="15"
+6-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:5:15-41
+7        android:targetSdkVersion="30" />
+7-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:11:5-15:68
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:13:22-53
+13        android:label="Tests for io.rong.imlib.test"
+13-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:15:22-66
+14        android:targetPackage="io.rong.imlib.test" />
+14-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:12:22-64
+15
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+16-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+17-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+18-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-76
+19-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-73
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-75
+20-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-72
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-71
+21-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-68
+22    <uses-permission android:name="android.permission.GET_TASKS" />
+22-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-68
+22-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-65
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-68
+23-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-65
+24    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+24-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-80
+24-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:22-77
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-66
+25-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:22-63
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+26-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-79
+26-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:22-76
+27    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+27-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-81
+27-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:22-78
+28
+29    <application android:debuggable="true" >
+29-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:7:5-9:19
+29-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:7:18-43
+30        <uses-library android:name="android.test.runner" />
+30-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:8:9-60
+30-->C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6056526928754351000.xml:8:23-57
+31        <!-- imlib config begin -->
+32        <meta-data
+32-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-29:45
+33            android:name="RONG_CLOUD_APP_KEY"
+33-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-46
+34            android:value="x4vkb1qpxfwxk" />
+34-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-42
+35
+36        <service
+36-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-34:38
+37            android:name="io.rong.imlib.ipc.RongService"
+37-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-57
+38            android:exported="true"
+38-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-36
+39            android:process=":ipc" />
+39-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-35
+40        <service
+40-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-38:72
+41            android:name="io.rong.imlib.ReConnectService"
+41-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-58
+42            android:exported="true"
+42-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-36
+43            android:permission="android.permission.BIND_JOB_SERVICE" />
+43-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-69
+44
+45        <receiver
+45-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:9-42:39
+46            android:name="io.rong.imlib.ConnectChangeReceiver"
+46-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-63
+47            android:exported="true" />
+47-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-36
+48        <receiver
+48-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-45:38
+49            android:name="io.rong.imlib.HeartbeatReceiver"
+49-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-59
+50            android:process=":ipc" /> <!-- imlib config end -->
+50-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-35
+51        <!-- 必选： SDK 核心功能 -->
+52        <!-- 第三方相关,向第三方推送服务请求 token 的服务 -->
+53        <!-- 处理 push 消息相关的服务 -->
+54        <service
+54-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:9-55:72
+55            android:name="io.rong.push.core.PushRegistrationService"
+55-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-69
+56            android:exported="true"
+56-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-36
+57            android:permission="android.permission.BIND_JOB_SERVICE" />
+57-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-69
+58        <service
+58-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:9-59:72
+59            android:name="io.rong.push.core.MessageHandleService"
+59-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-66
+60            android:exported="true"
+60-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-36
+61            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- push服务 -->
+61-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-69
+62        <service
+62-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:9-66:46
+63            android:name="io.rong.push.PushService"
+63-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-52
+64            android:exported="true"
+64-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-36
+65            android:permission="android.permission.BIND_JOB_SERVICE"
+65-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-69
+66            android:process="io.rong.push" /> <!-- push 相关事件接收器 -->
+66-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-43
+67        <receiver
+67-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:9-89:20
+68            android:name="io.rong.push.PushReceiver"
+68-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-53
+69            android:process="io.rong.push" > <!-- 此处进程可以改名，名称需要和PushService所在进程统一 -->
+69-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-43
+70            <!-- 心跳事件 -->
+71            <intent-filter>
+71-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-75:29
+72                <action android:name="io.rong.push.intent.action.HEART_BEAT" />
+72-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:17-80
+72-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:25-77
+73            </intent-filter>
+74            <!-- 网络变动事件 -->
+75            <intent-filter>
+75-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-79:29
+76                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+76-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:17-79
+76-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:25-76
+77            </intent-filter>
+78            <!-- 部分用户事件 -->
+79            <intent-filter>
+79-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-83:29
+80                <action android:name="android.intent.action.BOOT_COMPLETED" />
+80-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:17-79
+80-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:25-76
+81            </intent-filter>
+82            <intent-filter>
+82-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-88:29
+83                <action android:name="android.intent.action.USER_PRESENT" />
+83-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:17-77
+83-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:25-74
+84                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+84-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:17-87
+84-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:25-84
+85                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+85-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:87:17-90
+85-->[__tested_artifact__::IMLib] C:\Users\Lenovo\Desktop\Seen\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:87:25-87
+86            </intent-filter>
+87        </receiver>
+88
+89        <meta-data
+89-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+90            android:name="android.arch.lifecycle.VERSION"
+90-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:26:13-58
+91            android:value="27.0.0-SNAPSHOT" />
+91-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:27:13-44
+92    </application>
+93
+94</manifest>

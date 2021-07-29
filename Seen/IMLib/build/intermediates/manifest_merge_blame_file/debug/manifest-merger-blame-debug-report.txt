@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.rong.imlib"
+4    android:versionCode="2018040418"
+5    android:versionName="2.8.30 Dev" >
+6
+7    <uses-sdk
+7-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:4:5-6:41
+8        android:minSdkVersion="17"
+8-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:5:9-35
+9        android:targetSdkVersion="30" />
+9-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:6:9-38
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:8:5-81
+11-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:8:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:9:5-67
+12-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:9:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:10:5-79
+13-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:10:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:11:5-76
+14-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:11:22-73
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:12:5-75
+15-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:12:22-72
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:13:5-71
+16-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:13:22-68
+17    <uses-permission android:name="android.permission.GET_TASKS" />
+17-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:14:5-68
+17-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:14:22-65
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:15:5-68
+18-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:15:22-65
+19    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+19-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:16:5-80
+19-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:16:22-77
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:17:5-66
+20-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:17:22-63
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:18:5-79
+21-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:18:22-76
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:19:5-81
+22-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:19:22-78
+23
+24    <application>
+24-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:21:5-105:19
+25
+26        <!-- imlib config begin -->
+27        android:usesCleartextTraffic="true"
+28        <meta-data
+28-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:25:9-28:50
+29            android:name="RONG_CLOUD_APP_KEY"
+29-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:26:13-46
+30            android:usesCleartextTraffic="true"
+30-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:28:13-48
+31            android:value="8luwapkv867pl" />
+31-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:27:13-42
+32
+33        <service
+33-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:30:9-34:50
+34            android:name="io.rong.imlib.ipc.RongService"
+34-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:31:13-57
+35            android:exported="true"
+35-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:32:13-36
+36            android:process=":ipc"
+36-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:33:13-35
+37            android:usesCleartextTraffic="true" />
+37-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:34:13-48
+38        <service
+38-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:36:9-40:50
+39            android:name="io.rong.imlib.ReConnectService"
+39-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:37:13-45
+40            android:exported="true"
+40-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:38:13-36
+41            android:permission="android.permission.BIND_JOB_SERVICE"
+41-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:39:13-69
+42            android:usesCleartextTraffic="true" />
+42-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:40:13-48
+43
+44        <receiver
+44-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:42:9-45:50
+45            android:name="io.rong.imlib.ConnectChangeReceiver"
+45-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:43:13-63
+46            android:exported="true"
+46-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:44:13-36
+47            android:usesCleartextTraffic="true" />
+47-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:45:13-48
+48        <receiver
+48-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:47:9-50:50
+49            android:name="io.rong.imlib.HeartbeatReceiver"
+49-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:48:13-59
+50            android:process=":ipc"
+50-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:49:13-35
+51            android:usesCleartextTraffic="true" />
+51-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:50:13-48
+52        <!-- imlib config end -->
+53
+54
+55        <!-- 必选： SDK 核心功能 -->
+56        <!-- 第三方相关,向第三方推送服务请求 token 的服务 -->
+57        <!-- 处理 push 消息相关的服务 -->
+58        <service
+58-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:57:9-61:50
+59            android:name="io.rong.push.core.PushRegistrationService"
+59-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:58:13-69
+60            android:exported="true"
+60-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:59:13-36
+61            android:permission="android.permission.BIND_JOB_SERVICE"
+61-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:60:13-69
+62            android:usesCleartextTraffic="true" />
+62-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:61:13-48
+63        <service
+63-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:63:9-67:50
+64            android:name="io.rong.push.core.MessageHandleService"
+64-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:64:13-66
+65            android:exported="true"
+65-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:65:13-36
+66            android:permission="android.permission.BIND_JOB_SERVICE"
+66-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:66:13-69
+67            android:usesCleartextTraffic="true" />
+67-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:67:13-48
+68        <!-- push服务 -->
+69
+70        <service
+70-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:70:9-75:50
+71            android:name="io.rong.push.PushService"
+71-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:71:13-52
+72            android:exported="true"
+72-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:72:13-36
+73            android:permission="android.permission.BIND_JOB_SERVICE"
+73-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:73:13-69
+74            android:process="io.rong.push"
+74-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:74:13-43
+75            android:usesCleartextTraffic="true" />
+75-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:75:13-48
+76
+77        <!-- push 相关事件接收器 -->
+78        <receiver
+78-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:78:9-99:20
+79            android:name="io.rong.push.PushReceiver"
+79-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:79:13-53
+80            android:process="io.rong.push"
+80-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:81:13-43
+81            android:usesCleartextTraffic="true" > <!-- 此处进程可以改名，名称需要和PushService所在进程统一 -->
+81-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:80:13-48
+82            <!-- 心跳事件 -->
+83            <intent-filter>
+83-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:83:13-85:29
+84                <action android:name="io.rong.push.intent.action.HEART_BEAT" />
+84-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:84:17-80
+84-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:84:25-77
+85            </intent-filter>
+86            <!-- 网络变动事件 -->
+87            <intent-filter>
+87-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:87:13-89:29
+88                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+88-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:88:17-79
+88-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:88:25-76
+89            </intent-filter>
+90            <!-- 部分用户事件 -->
+91            <intent-filter>
+91-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:91:13-93:29
+92                <action android:name="android.intent.action.BOOT_COMPLETED" />
+92-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:92:17-79
+92-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:92:25-76
+93            </intent-filter>
+94            <intent-filter>
+94-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:94:13-98:29
+95                <action android:name="android.intent.action.USER_PRESENT" />
+95-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:95:17-77
+95-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:95:25-74
+96                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+96-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:96:17-87
+96-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:96:25-84
+97                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+97-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:97:17-90
+97-->D:\VirtualFiles\ShenDaChuang\11.9\Seen\IMLib\AndroidManifest.xml:97:25-87
+98            </intent-filter>
+99        </receiver>
+100
+101        <!-- 必选： SDK 核心功能 -->
+102
+103
+104        <!-- end -->
+105
+106    </application>
+107
+108</manifest>

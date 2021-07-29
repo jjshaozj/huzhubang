@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#FFFFFF" >
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/image_icon"
+            android:src="@mipmap/app_icon"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            app:riv_border_color="#00ffffff"
+            app:riv_border_width="3dp"
+            app:riv_oval="true"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/image_icon"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/signed"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="帮助他人也是帮助自己"
+            android:textColor="#585858"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_below="@+id/name"/>
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/besend"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/signed"
+            android:layout_marginTop="20dp"
+            android:background="@color/recyclercolor"
+            android:text="我的发布"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/bedone"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/besend"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/recyclercolor"
+            android:text="待解决"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/setting"
+            android:layout_height="45dp"
+            android:text="设  置"
+            android:layout_marginTop="20dp"
+            android:background="#2196F3"
+            android:layout_below="@+id/bedone"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

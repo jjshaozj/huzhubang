@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Seen.iml" filepath="$PROJECT_DIR$/Seen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IMKit/Seen.IMKit.iml" filepath="$PROJECT_DIR$/.idea/modules/IMKit/Seen.IMKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IMLib/Seen.IMLib.iml" filepath="$PROJECT_DIR$/.idea/modules/IMLib/Seen.IMLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SlidingMenu-master/Seen.SlidingMenu-master.iml" filepath="$PROJECT_DIR$/.idea/modules/SlidingMenu-master/Seen.SlidingMenu-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Seen.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Seen.app.iml" />
+    </modules>
+  </component>
+</project>

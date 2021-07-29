@@ -1,0 +1,4 @@
+#Sat Mar 27 10:56:57 CST 2021
+base.0=D\:\\VirtualFiles\\ShenDaChuang\\11.9\\Seen\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
